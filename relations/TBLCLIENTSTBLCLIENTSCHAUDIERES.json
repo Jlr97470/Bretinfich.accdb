@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "TBLCLIENTSTBLCLIENTSCHAUDIERES",
+    "Attributes": 256,
+    "Table": "TBLCLIENTS",
+    "ForeignTable": "TBLCLIENTSCHAUDIERES",
+    "Fields": [
+      {
+        "Name": "CliNum",
+        "ForeignName": "CliChdCliNum"
+      }
+    ]
+  }
+}

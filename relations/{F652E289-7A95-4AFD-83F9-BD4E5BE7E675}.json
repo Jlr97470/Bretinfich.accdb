@@ -1,0 +1,18 @@
+﻿{
+  "Info": {
+    "Class": "clsDbRelation",
+    "Description": "Database relationship"
+  },
+  "Items": {
+    "Name": "{F652E289-7A95-4AFD-83F9-BD4E5BE7E675}",
+    "Attributes": 2,
+    "Table": "TBLMACHINES",
+    "ForeignTable": "TBLMACHINESMESSAGES",
+    "Fields": [
+      {
+        "Name": "MacUtilisateur",
+        "ForeignName": "MacMesExpUtilisateur"
+      }
+    ]
+  }
+}

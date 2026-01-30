@@ -1,0 +1,43 @@
+﻿{
+  "Info": {
+    "Class": "clsDbDocument",
+    "Description": "Database Documents Properties (DAO)"
+  },
+  "Items": {
+    "Tables": {
+      "TBLCHAUDIERESINTERVENTIONS": {
+        "Description": "Liste Des Interventions"
+      },
+      "TBLCIVILITES": {
+        "Description": "Liste Des Civilités"
+      },
+      "TBLCLIENTS": {
+        "Description": "Liste Des Clients"
+      },
+      "TBLCLIENTSCHAUDIERES": {
+        "Description": "Liste Des Chaudieres"
+      },
+      "TBLCLIENTSCONTRATS": {
+        "Description": "Liste Des Contrats"
+      },
+      "TBLDEPARTEMENTS": {
+        "Description": "Liste Des Departements"
+      },
+      "TBLMACHINES": {
+        "Description": "Liste Des Machines Connectées"
+      },
+      "TBLMACHINESMESSAGES": {
+        "Description": "Liste Des Messages Des Utilisateur"
+      },
+      "TBLMENU": {
+        "Description": "Liste Du Menu Principale"
+      },
+      "TBLPARAMETRESGENERALS": {
+        "Description": "Liste Des Parametres Generals"
+      },
+      "TBLVILLES": {
+        "Description": "Liste Des Villes"
+      }
+    }
+  }
+}
