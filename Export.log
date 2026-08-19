@@ -5,7 +5,7 @@ VCS Version 4.1.2
 Full Path: D:\MES_SOURCES\ACCESS\SOURCES\DELTAINFORMATIQUE\ACCESS_2007-2016\BASE_BRETIN_CLIENTS\Bretinfich.accdb
 Export Folder: D:\MES_SOURCES\GITHUB\Bretinfich.accdb\
 Performing Full Export
-30/01/2026 08:22:17
+19/08/2026 12:30:00
 -------------------------------------
 Scanning source files...
 No db connections found in this database.
@@ -36,7 +36,7 @@ Exporting vbe references...
 -------------------------------------
 Exporting proj properties...  
   Current Project Properties (Access)
-[1]
+[2]
 -------------------------------------
 Exporting themes...           
   Thème Office
@@ -48,19 +48,19 @@ Exporting db properties...
 -------------------------------------
 Exporting tables...           
   TBLCHAUDIERESINTERVENTIONS
-    Sanitized in 0,003 seconds.
+    Sanitized in 0,001 seconds.
   TBLCHAUDIERESINTERVENTIONS (SQL)
   TBLCIVILITES
-    Sanitized in 0,004 seconds.
+    Sanitized in 0,001 seconds.
   TBLCIVILITES (SQL)
   TBLCLIENTS
-    Sanitized in 0,008 seconds.
+    Sanitized in 0,003 seconds.
   TBLCLIENTS (SQL)
   TBLCLIENTSCHAUDIERES
-    Sanitized in 0,004 seconds.
+    Sanitized in 0,001 seconds.
   TBLCLIENTSCHAUDIERES (SQL)
   TBLCLIENTSCONTRATS
-    Sanitized in 0,003 seconds.
+    Sanitized in 0,001 seconds.
   TBLCLIENTSCONTRATS (SQL)
   TBLDEPARTEMENTS
     Sanitized in 0,001 seconds.
@@ -69,13 +69,13 @@ Exporting tables...
     Sanitized in 0,001 seconds.
   TBLMACHINES (SQL)
   TBLMACHINESMESSAGES
-    Sanitized in 0,003 seconds.
+    Sanitized in 0,001 seconds.
   TBLMACHINESMESSAGES (SQL)
   TBLMENU
     Sanitized in 0,001 seconds.
   TBLMENU (SQL)
   TBLPARAMETRESGENERALS
-    Sanitized in 0,002 seconds.
+    Sanitized in 0,001 seconds.
   TBLPARAMETRESGENERALS (SQL)
   TBLVILLES
     Sanitized in 0,001 seconds.
@@ -109,71 +109,75 @@ Exporting nav pane groups...
 Exporting hidden attributes...
   Database hidden attributes
 [1]
+Added default .gitignore file
 -------------------------------------
-Done. (2,25 seconds)
+Done. (0,71 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Category                      Count     Seconds
 --------------------------------------------------
-Tables                        11        0,52
-Relations                     13        0,23
-DB Properties                 25        0,20
-Themes                        1         0,18
-Hidden Attributes             1         0,16
-Doc Properties                11        0,12
-Project                       1         0,11
-Nav Pane Groups               1         0,10
-VBE References                3         0,08
-Proj Properties               1         0,07
-VB Project                    1         0,06
-DB Connections                0         0,02
-Table Data Macros             0         0,01
-Shared Images                 0         0,01
+Tables                        11        0,22
+Relations                     13        0,08
+DB Properties                 25        0,05
+Doc Properties                11        0,04
+Nav Pane Groups               1         0,03
+Project                       1         0,03
+Hidden Attributes             1         0,02
+VBE References                3         0,02
+Themes                        1         0,02
+Proj Properties               2         0,02
+VB Project                    1         0,02
+DB Connections                0         0,01
+Table Data Macros             0         0,00
+Shared Images                 0         0,00
 IMEX Specs                    0         0,00
-Table Data                    0         0,00
 VBE Forms                     0         0,00
+Table Data                    0         0,00
 Queries                       0         0,00
 CommandBars                   0         0,00
-Macros                        0         0,00
 Saved Specs                   0         0,00
 Forms                         0         0,00
 Reports                       0         0,00
 Modules                       0         0,00
+Macros                        0         0,00
 --------------------------------------------------
-TOTALS:                       69        1,89
+TOTALS:                       70        0,57
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Increment Progress            66        0,76
-Convert to JSON               548       0,29
-Console Updates               4         0,23
-Scan DB Objects               1         0,15
-App.ExportXML()               11        0,15
-Save Table SQL                11        0,07
-Write File                    43        0,04
-Get File Property Hash        33        0,02
-modFileAccess.VerifyPath      55        0,02
-Check for linked table        11        0,01
-Sanitize XML                  11        0,01
-Format XML                    10        0,01
-Compute SHA256                75        0,01
-Get Modified Date             55        0,01
-Quick Count Files             1         0,01
-Delete File                   12        0,01
-Read File Bytes               12        0,01
+Increment Progress            102       0,24
+Convert to JSON               550       0,09
+Scan DB Objects               1         0,06
+App.ExportXML()               11        0,04
+Console Updates               3         0,04
+Save Table SQL                11        0,02
+Get File Property Hash        66        0,02
+Write File                    43        0,01
+Clear Files by Ext            6         0,01
+Clear Orphaned Files          12        0,01
+Compute SHA256                108       0,01
+modFileAccess.VerifyPath      55        0,01
+Sanitize XML                  11        0,00
+Check for linked table        11        0,00
+Parse JSON                    1         0,00
+Format XML                    10        0,00
+Quick Count Files             1         0,00
+Get Modified Date             55        0,00
+Read File                     12        0,00
+Delete File                   13        0,00
 Quick Count Objects           1         0,00
-Read File                     11        0,00
+Read File Bytes               12        0,00
+Parse JSON ISO Date           35        0,00
 Format XML (alt)              1         0,00
 Close Open Objects            1         0,00
 Export Theme                  1         0,00
-Clear Files by Ext            6         0,00
 modFileAccess.GetUncPath      2         0,00
 --------------------------------------------------
-Other Operations                        0,43
+Other Operations                        0,13
 --------------------------------------------------
 
 
